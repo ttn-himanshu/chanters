@@ -1,0 +1,28 @@
+{
+  "name": "chanters",
+  "version": "1.0.0",
+  "description": "Tiny library for creating browser supported custom elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttn-himanshu/chanters.git"
+  },
+  "keywords": [
+    "js",
+    "framework",
+    "library",
+    "custom",
+    "elements",
+    "web",
+    "components"
+  ],
+  "author": "Himanshu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttn-himanshu/chanters/issues"
+  },
+  "homepage": "https://github.com/ttn-himanshu/chanters#readme"
+}
