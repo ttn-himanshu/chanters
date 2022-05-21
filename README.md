@@ -2,11 +2,11 @@
 
 Chanters is a JavaScript library for creating browser supported re-usable web components.
 
-Install via npm
+##Install via npm
 
     npm install chanters
     
-Usage
+##Usage
 
 ```jsx
 import Chanters from "chanters";
