@@ -136,3 +136,36 @@ class CustomElement extends Chanters {
 
 customElements.define("custom-element", CustomElement);
 ```
+
+## Slot:
+ is a placeholder inside a web component that you can fill with your own markup, which lets you create separate DOM trees and present them together.
+
+```jsx
+import Chanters from "chanters";
+import { html } from "chanters/utils";
+
+class CustomElement extends Chanters {
+  static get properties() {
+    return {};
+  }
+  
+ 
+  
+  static get template() {
+    return html`
+      <style>
+        @import "path/to/cssfile";
+      </style>
+      <div class="footer">
+        <slot name="ex-xyz"></slot>
+      </div>
+    `;
+  }
+}
+
+customElements.define("custom-element", CustomElement);
+
+<custom-element>
+    <label slot="ex-xyz">slot usage</label>
+</custom-element>
+```
