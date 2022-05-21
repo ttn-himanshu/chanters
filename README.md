@@ -66,13 +66,13 @@ class CustomElement extends Chanters {
 
 customElements.define("custom-element", CustomElement);
 ```
+
 If one want to pass arguments to handle click function then use this syntax instead
 ```jsx
 <button on-click="{{handleClick(arg1, arg2)}}">increment counter</button>
 ```
 
 ## Repeating templates
-```jsx
 ```jsx
 import Chanters from "chanters";
 import { html } from "chanters/utils";
@@ -102,7 +102,6 @@ customElements.define("custom-element", CustomElement);
 ```
 
 ## If Condition
-```jsx
 ```jsx
 import Chanters from "chanters";
 import { html } from "chanters/utils";
